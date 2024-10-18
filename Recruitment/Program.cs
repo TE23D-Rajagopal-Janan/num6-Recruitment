@@ -16,8 +16,8 @@ int s = 0;
 int.TryParse(val1, out s);
 
     names.RemoveAt(s);
-    names2.Add(s);
-
+    names2.Add(val1);
+        
 Console.WriteLine(string.Join("\n", names));
 Console.WriteLine(string.Join("\n", names2));
 Console.ReadLine();
